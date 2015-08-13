@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Arturo Gutiérrez
+tagline:          'Arturo blog'
+description:      'Software Engineer'
+url:              http://arturogutierrez.github.io
+baseurl:          /
+
+author:
+  name:           'Arturo Gutiérrez'
+  url:            https://twitter.com/arturogdg
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/arturogutierrez
+
+ # Social Media Content
+twitter_username: arturogdg
+github_username:  arturogutierrez
+linkedin_username: arturogutierrezdiazguerra
