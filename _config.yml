@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            Arturo Gutiérrez
-tagline:          'Arturo blog'
-description:      'Software Engineer'
+tagline:          'Android, iOS, Development'
+description:      'Android and iOS Software Engineer'
 url:              http://arturogutierrez.github.io
 baseurl:          /
 
@@ -20,10 +20,10 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
 github:
-  repo:           https://github.com/arturogutierrez
+  repo:           https://github.com/arturogutierrez/arturogutierrez.github.io
 
  # Social Media Content
 twitter_username: arturogdg
