@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Arturo Gutiérrez
 tagline:          'Android, iOS, Development'
 description:      'Android and iOS Software Engineer'
-url:              http://www.arturogutierrez.com
+url:              http://arturogutierrez.com
 baseurl:          /
 
 author:
