@@ -217,7 +217,6 @@ Other way to improve the system is **keeping the buckets always on memory** so I
 I don't know if this is the best architecture to implement a Leaderboard in an efficient way but I think **it's a beginning** at least especially using [Parse][parse] as backend.
 
 If you have any questions or comments, please post them below.
-<!-- Twitter added manually for this post to not break previous tweets -->
 If you liked this post, you can
 <a href="https://twitter.com/intent/tweet?url=http://arturogutierrez.github.io{{ page.url }}&text={{ page.title }}&via={{ site.twitter_username }}" 
    target="_blank">
