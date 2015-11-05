@@ -5,7 +5,16 @@ comments: true
 permalink: "accepting-specific-self-signed-server-certificate-on-git"
 ---
 
-Today, I've been facing the problem about how to accept a self-signed server certificate for [Git][git] repositories using **HTTPS URLs**. You can be wondering why I don't use SSH connection and the problem is resolved, isn't? Well, I can't use it this time so I had to find a way to accept it permanently.
+Today, I've been facing the problem about how to accept a self-signed server certificate when trying to clone a [Git][git] repository using a **HTTPS URL**. The thing is if you try to clone a repository hosted in a machine using a self-signed certificate you will get the following error:
+
+```
+$ git clone https://www.myserver.com/myrepo.git
+fatal: unable to access 'https://www.myserver.com/myrepo.git/': SSL certificate problem: Invalid certificate chain
+```
+
+[Git][git] doesn't ask you for accept the certificate so you can't access to the repo if you don't find a way to skip the SSL verification.
+
+You can also be wondering why I don't use SSH connection and the problem is resolved, isn't? Well, I can't use it this time so I had to find a way to accept it permanently.
 
 First option is disable certificates verification when I execute a [Git][git] command:
 
