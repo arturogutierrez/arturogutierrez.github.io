@@ -1,17 +1,18 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
+gems:             [jekyll-paginate]
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Arturo Gutiérrez
-tagline:          'Android, iOS, Development'
-description:      'Android and iOS Software Engineer'
+tagline:          "Arturo's technical blog" 
+description:      "Android and iOS Software Engineer"
 url:              http://arturogutierrez.com
 baseurl:          /
+future:           true
 
 author:
   name:           'Arturo Gutiérrez'
