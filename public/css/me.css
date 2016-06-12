@@ -15,20 +15,21 @@
 
 /* Avatar */
 
-#myface {
-    background-image: url(../images/avatar.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border: 4px solid;
-    border-color: #ffffff;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    vertical-align: middle;
+@media (min-width: 48em) {
+  #myface {
+      background-image: url(../images/avatar.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%;
+      border: 4px solid;
+      border-color: #ffffff;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      vertical-align: middle;
+  }
 }
-
 
 /* Social icons */
 
@@ -74,7 +75,12 @@
 .sidebar-sticky {
   bottom: auto;
   top: 50%;
-  margin-top: -50%;
+}
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    margin-top: -50%;
+  }
 }
 
 /* Code blocks */
