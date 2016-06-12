@@ -1,22 +1,23 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-gems:             [jekyll-paginate]
+gems:             [jekyll-paginate, jekyll-seo-tag]
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Arturo Gutiérrez
-tagline:          "Arturo's technical blog" 
-description:      "Android and iOS Software Engineer"
+title:            "Arturo Gutiérrez"
+subtitle:         "Android and iOS Software Engineer"
+tagline:          "Blog"
+description:      "Learn Android advanced topics with articles and examples. Material Design, MVP, Kotlin, Clean Architecture, RxJava."
 url:              http://arturogutierrez.com
 baseurl:          /
 future:           true
+logo:             /public/images/avatar.jpg
 
 author:
   name:           'Arturo Gutiérrez'
-  url:            https://twitter.com/arturogdg
 
 paginate:         5
 
@@ -27,6 +28,9 @@ github:
   repo:           https://github.com/arturogutierrez/arturogutierrez.github.io
 
  # Social Media Content
-twitter_username: arturogdg
-github_username:  arturogutierrez
-linkedin_username: arturogutierrezdiazguerra
+twitter:
+  username: arturogdg
+github:
+  username: arturogutierrez
+linkedin:
+  username: arturogutierrezdiazguerra

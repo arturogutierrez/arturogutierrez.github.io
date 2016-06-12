@@ -7,14 +7,14 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{{ site.subtitle }}</p>
 
  <div class="media-line">
 
       <ul class="social-media-list">    
-          {% if site.github_username %}
+          {% if site.github.username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}">
+            <a href="https://github.com/{{ site.github.username }}">
               <span class="icon  icon--github">
                 <svg viewBox="0 0 512 512">
                   <path fill="#828282" d="M256,55.083c-113.764,0-206,92.237-206,206
@@ -31,9 +31,9 @@
             </a>
           </li>
           {% endif %}
-          {% if site.linkedin_username %}
+          {% if site.linkedin.username %}
           <li>
-            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+            <a href="https://linkedin.com/in/{{ site.linkedin.username }}">
               <span class="icon  icon--linkedin">
                 <svg viewBox="0 0 512 512">
                   <path fill="#828282" d="M256.417,50c-113.771,0-206,92.229-206,206s92.229,206,206,206s206-92.229,206-206
@@ -47,9 +47,9 @@
             </a>
           </li>
           {% endif %}
-          {% if site.twitter_username %}
+          {% if site.twitter.username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
+            <a href="https://twitter.com/{{ site.twitter.username }}">
               <span class="icon  icon--twitter">
                 <svg viewBox="0 0 512 512">
                   <path fill="#828282" d="M256,50C142.229,50,50,142.229,50,256s92.229,206,206,206s206-92.229,206-206S369.771,50,256,50z

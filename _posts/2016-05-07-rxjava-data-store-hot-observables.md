@@ -101,14 +101,14 @@ If you are interested in the full solution you can find it in the [Openticator G
 
 If you have any questions or comments, please post them below.
 If you liked this post, you can
-<a href="https://twitter.com/intent/tweet?url=http://arturogutierrez.com{{ page.url }}&text={{ page.title }}&via={{ site.twitter_username }}" 
+<a href="https://twitter.com/intent/tweet?url=http://arturogutierrez.com{{ page.url }}&text={{ page.title }}&via={{ site.twitter.username }}" 
    target="_blank">
   share it with your followers</a> 
 or 
-<a href="https://twitter.com/{{ site.twitter_username }}">
+<a href="https://twitter.com/{{ site.twitter.username }}">
   follow me on Twitter</a>!
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://arturogutierrez.com{{ page.url }}" data-via="{{ site.twitter_username }}" data-size="large">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://arturogutierrez.com{{ page.url }}" data-via="{{ site.twitter.username }}" data-size="large">Tweet</a>
 
 <!-- Put this just before the closing body tag -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -121,5 +121,5 @@ or
 [observable]: https://github.com/ReactiveX/RxJava/wiki/Observable
 [accountdiskdatastore]: https://github.com/arturogutierrez/Openticator/blob/master/data/src/main/java/com/arturogutierrez/openticator/storage/AccountDiskDataStore.java
 
-[twitter]: https://twitter.com/{{ site.twitter_username }}
-[github]: https://github.com/{{ site.github_username }}
+[twitter]: https://twitter.com/{{ site.twitter.username }}
+[github]: https://github.com/{{ site.github.username }}
