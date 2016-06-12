@@ -50,7 +50,7 @@ First thing I have to do is initialize the `Subject` in the constructor:
 ```
 `PublishSubject` is an implementation from `Subject` which emits all subsequently observed items to the subscriber. The idea is **publishing a `null` value** into this Subject whenever there is a change in the data store.
 You can ask me **Why publish a null value?** The reason is I only want to detect whenever there is a change and I don't need to know what was changed, so a *null value* is enough for this case.
-Also, I created it as **serialized** because I don't want to be worried about from which thread all null values are being sent to the subject, to be more specific the official docs says about `toSerialized()`: *Wraps a Subject so that it is safe to call its various on methods from different threads* [Docs][http://reactivex.io/RxJava/javadoc/rx/subjects/Subject.html#toSerialized()].
+Also, I created it as **serialized** because I don't want to be worried about from which thread all null values are being sent to the subject, to be more specific the official docs says about `toSerialized()`: *Wraps a Subject so that it is safe to call its various on methods from different threads* [Docs][toserialized].
 
 The data store should emit the account list when there is a new value (*null value*) in `changesPublishSubject`, so the first implementation could be:
 
