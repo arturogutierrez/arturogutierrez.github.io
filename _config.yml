@@ -17,7 +17,8 @@ future:           true
 logo:             /public/images/avatar.jpg
 
 author:
-  name:           'Arturo Gutiérrez'
+  name:           "Arturo Gutiérrez"
+  twitter:        arturogdg
 
 paginate:         5
 
