@@ -4,7 +4,7 @@ title: Creating enums with associated data in Kotlin
 comments: true
 ---
 
-Lately, I've been developing in Swift, due to job reasons, and I love the [Swift's enum with associated values][swiftenums]. If you don't know them I'll show you an example but, I can you something, you will love them too!.
+Lately, I've been developing in Swift due to job reasons and I love the [Swift's enum with associated values][swiftenums]. If you don't know them I'll show you an example but, I can tell you something, you will love them too!.
 
 Usually, an `enum` can contain associated data but the type of that data should be the same for all enum cases. Example:
 
@@ -18,12 +18,12 @@ public enum DayOfWeek {
    SATURDAY(6),
    SUNDAY(7);
 
-   private int getDayNumber;
-   private DayOfWeek(int getDayNumber) {
-      this.getDayNumber = getDayNumber;
+   private int dayNumber;
+   private DayOfWeek(int dayNumber) {
+      this.dayNumber = dayNumber;
    }
    public int getDayNumber() {
-      return getDayNumber;
+      return dayNumber;
    }
 }
 ```
@@ -31,7 +31,7 @@ public enum DayOfWeek {
 Same code in Kotlin (much more beautiful):
 
 ```kotlin
-enum class DayOfWeek(val getDayNumber: Int) {
+enum class DayOfWeek(val dayNumber: Int) {
   MONDAY(1), TUESDAY(2), WEDNESDAY(3), THURSDAY(4),
   FRIDAY(5), SATURDAY(6), SUNDAY(7)
 }
@@ -137,7 +137,7 @@ fun renderEvent(event: Event): Unit {
     }
 }
 ```
-Notice as `event.contentType` is casted inside of the `is` clause, this allow us to access to specific fields being compile safety.
+Notice that `event.contentType` is casted inside of the `is` clause, this allow us to access to specific fields being compile safety.
 
 That's all, we have modeled our events using sealed class in a fashion way, but, obviously give us more benefits:
 
@@ -147,7 +147,7 @@ That's all, we have modeled our events using sealed class in a fashion way, but,
 
 If you are interested you can **play with all source code** in [Try Kotlin][example].
 
-Finally, I can say you we're using this kind of events model in our iOS project written in Swift and we're very happy with the result, make everything more concise, readable and beautiful.
+Finally, I can say you we're using this kind of events model in our iOS project written in Swift and we're very happy with the result, make everything more concise, readable and beautiful, so the ability to have something similar in Kotlin is awesome!.
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://arturogutierrez.com{{ page.url }}" data-via="{{ site.twitter.username }}" data-size="large">Tweet</a>
 
