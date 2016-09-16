@@ -145,7 +145,10 @@ That's all, we have modeled our events using sealed class in a fashion way, but,
 * All events are inmutables
 * Everything is more clear and readable
 
-I can say you we're using this kind of events model in our iOS project written in Swift and we're very happy with the result, make everything more concise, readable and beautiful.
+If you are interested you can **play with all source code** in [Try Kotlin][example].
+
+Finally, I can say you we're using this kind of events model in our iOS project written in Swift and we're very happy with the result, make everything more concise, readable and beautiful.
+
 
 <!-- Put this just before the closing body tag -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -153,3 +156,4 @@ I can say you we're using this kind of events model in our iOS project written i
 
 [swiftenums]: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html
 [sealedclasses]: https://kotlinlang.org/docs/reference/classes.html#sealed-classes
+[example]: http://try.kotlinlang.org/#/UserProjects/5pqf3jglalsp68m2gtppi13k19/b48uqn9onkngl8uh3qhmcihj9n
