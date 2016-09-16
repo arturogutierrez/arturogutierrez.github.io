@@ -149,6 +149,7 @@ If you are interested you can **play with all source code** in [Try Kotlin][exam
 
 Finally, I can say you we're using this kind of events model in our iOS project written in Swift and we're very happy with the result, make everything more concise, readable and beautiful.
 
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://arturogutierrez.com{{ page.url }}" data-via="{{ site.twitter.username }}" data-size="large">Tweet</a>
 
 <!-- Put this just before the closing body tag -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
