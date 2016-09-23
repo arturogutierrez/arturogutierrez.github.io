@@ -85,7 +85,7 @@ If you don't have `openssl` or you don't want to install it you can Firefox to d
 Copy/move the file to the folder you wish (personally, I prefer to create a hidden folder called `~/.git-certs/`) and store it there. Now, only left telling to [Git][git] to trust the certificate:
 
 ```
-git config --global http.sslCAInfo ~/.git-certs/certificate.pem`
+git config --global http."https://www.myserver.com/".sslCAInfo ~/.git-certs/certificate.pem`
 ```
 
 That's it, [Git][git] won't verify the SSL connection **ONLY** in the server what you need :)
